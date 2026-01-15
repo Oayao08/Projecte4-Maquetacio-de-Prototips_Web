@@ -1,0 +1,40 @@
+body {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    background-color: #e5e5e5;
+    justify-content: center;
+}
+
+.background {
+    display: flex;
+    width: 1440px;
+    height: 1010px;
+    background-image: url("../img/bg-pattern-intro-desktop.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-color: #f2f4f6;
+}
+
+.container {
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 637px;
+    height: 327px;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 145px;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 96px;
+    font-weight: 900;
+    text-align: center;
+    width: 636px;
+    height: 87px;
+}
+
