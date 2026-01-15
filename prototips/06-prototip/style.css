@@ -6,10 +6,9 @@ body {
 }
 
 .background {
-    display: flex;
     width: 1440px;
     height: 1010px;
-    background-image: url("../img/bg-pattern-intro-desktop.png");
+    background-image: url("imatges/background.png");
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -18,8 +17,8 @@ body {
 }
 
 .container {
+    flex-direction: column;
     margin-bottom: 150px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 637px;
@@ -47,5 +46,70 @@ p {
 }
 
 button {
-    
+    border-radius: 34px;
+    padding: 24px 48px 24px 48px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    width: 178px;
+    height: 66px;
+}
+
+.Fila {
+    display: flex;
+}
+
+.Columna1 {
+    background-image: url("imatges/left.png");
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 520px;
+}
+
+.Columna2 {
+    background-image: url("imatges/Middle.png");
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 520px;
+}
+
+.Columna3 {
+    background-image: url("imatges/Right.png");
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 520px;
+}
+
+.info {
+    top: 350px;
+    height: 125px;
+    width: 320px;
+    padding-top: 350px;
+    padding-right: 96px;
+    padding-bottom: 46px;
+    padding-left: 64px;
+    background: 180deg;
+}
+
+.info h1 {
+    font-weight: 800;
+    font-size: 36px;
+    color: #ffffffcc;
+    text-align: left;
+    height: 38px;
+    width: 316px;
+}
+
+.informacion p {
+  text-align: left;
+  width: 316px;
+  height: 58px;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  margin-top: -10px;
 }
