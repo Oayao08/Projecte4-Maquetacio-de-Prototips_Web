@@ -1,107 +1,80 @@
 body {
     font-family: "Lato", sans-serif;
-    display: flex;
     background-color: #e5e5e5;
     justify-content: center;
+    margin: 0;
 }
 
 .background {
-    width: 1440px;
-    height: 1010px;
+    width: 100%;
+    height: 1440px;
     background-image: url("imatges/background.png");
     background-size: cover;
     align-items: center;
     justify-content: center;
     background-position: center;
     background-color: #f2f4f6;
+    display: flex;
 }
 
 .container {
+    display: flex;
     flex-direction: column;
-    margin-bottom: 150px;
-    flex-direction: column;
+    gap: 24px;
     align-items: center;
-    width: 637px;
-    height: 327px;
-    background-color: #ffffff;
 }
 
 h1 {
-    margin-bottom: 145px;
-    color: #ffffff;
-    font-size: 96px;
+    color: white;
+    margin: 0;
+    font-size: 72px;
     font-weight: 900;
-    text-align: center;
-    width: 636px;
-    height: 87px;
 }
 
 p {
-    color: #ffffff;
-    font-size: 26px;
-    text-align: center;
-    font-weight: 400;
-    height: 93px;
-    width: 552px;
+    color: white;
+    max-width: 549px;
+    font-size: 22px;
 }
 
 button {
-    border-radius: 34px;
-    padding: 24px 48px 24px 48px;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    font-size: 24px;
-    width: 178px;
-    height: 66px;
+    border-radius: 33px;
+    padding: 16px 40px;
+    font-size: 20px;
+    font-weight: 499;
+    border: none;
 }
 
+/*bloques*/
 .Fila {
     display: flex;
+    width: 100%;
 }
 
-.Columna1 {
-    background-image: url("imatges/left.png");
-    background-size: cover;
-    background-position: center;
-    width: 480px;
-    height: 520px;
-}
-
-.Columna2 {
-    background-image: url("imatges/Middle.png");
-    background-size: cover;
-    background-position: center;
-    width: 480px;
-    height: 520px;
-}
-
+.Columna1,
+.Columna2,
 .Columna3 {
-    background-image: url("imatges/Right.png");
+    flex: 1;
+    height: 521px;
     background-size: cover;
     background-position: center;
-    width: 480px;
-    height: 520px;
+    align-items: flex-end;
+    display: flex;
 }
+
+.Columna1 { background-image: url(imatges/left.png); }
+.Columna2 { background-image: url(imatges/Middle.png); }
+.Columna3 { background-image: url(imatges/Right.png); }
 
 .info {
-    top: 350px;
-    height: 125px;
-    width: 320px;
-    padding-top: 350px;
-    padding-right: 96px;
-    padding-bottom: 46px;
-    padding-left: 64px;
-    background: 180deg;
+    padding: 32px;
+    color: white;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);
 }
 
-.info h1 {
-    font-weight: 800;
-    font-size: 36px;
-    color: #ffffffcc;
-    text-align: left;
-    height: 38px;
-    width: 316px;
+.info h2 {
+    margin: 0;
+    font-size: 27px;
 }
 
 .informacion p {
