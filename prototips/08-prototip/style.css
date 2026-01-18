@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+    font-size: 3em;
+}
+
+p {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 1.2em;
+}
