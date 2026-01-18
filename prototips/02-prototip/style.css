@@ -5,7 +5,10 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
+  min-height: 100vh;
   background-color: #ffffff;
+  width: 1440px;
+  height: 1140px;
 }
 
 .section {
@@ -13,28 +16,83 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  width: 1440px;
+  height: 1140px;
   margin: auto;
 }
 
-.row {
-  display: flex;
-  gap: 24px;
+.title {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  line-height: 100%;
+  top: 100px;
+  left: 50px;
+  color: white;
+  letter-spacing: 1%;
 }
 
-.col {
-  flex: 1;
+.text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 11px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  position: absolute;
+  top: 274px;
+  left: 50px;
 }
 
-.center {
+.button {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  position: absolute;
+  top: 489px;
+  left: 50px;
+}
+
+.button button {
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  width: 222;
+  height: 66;
+  opacity: 1;
+  border-radius: 40px;
+  padding-top: 24px;
+  padding-right: 56px;
+  padding-bottom: 24px;
+  padding-left: 56px;
+  gap: 10px;
+}
+
+.fila {
   display: flex;
+  gap: -1px;
+  position: absolute;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  top: 750px;
+  left: 70px;
 }
 
-button {
-  padding: 12px 28px;
-  border-radius: 20px;
-  border: none;
+.img1 img{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.img6 img {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
