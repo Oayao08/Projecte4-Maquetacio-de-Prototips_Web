@@ -7,8 +7,6 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #ffffff;
-  width: 1440px;
-  height: 1140px;
 }
 
 .section {
@@ -16,6 +14,7 @@ body {
 }
 
 .container {
+  background-color: #ffffff;
   width: 1440px;
   height: 1140px;
   margin: auto;

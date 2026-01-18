@@ -1,6 +1,96 @@
 body {
-    background-color: #9C2004;
+    background: linear-gradient(295.04deg, #9C2004 5.77%, #AB2706 97.94%);
     font-family: "Work Sans", sans-serif;
     color: #ffffff;
     margin: 0;
+}
+
+.container {
+    background: linear-gradient(295.04deg, #9C2004 5.77%, #AB2706 97.94%);
+    width: 1440px;
+    height: 1140px;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    top: 520px;
+    width: 618px;
+    height: 795.5px;
+    opacity: 1;
+    top: 242px;
+    left: 64px;
+}
+
+.image img {
+    width: 600px;
+    height: auto;
+}
+
+.pattern-up img {
+    width: 224px;
+    height: 224px;
+    opacity: 1;
+    top: 120px;
+    left: 50px;
+    position: absolute;
+}
+
+.pattern-down {
+    
+}
+
+.sol {
+    width: auto;
+    height: auto;
+    opacity: 1;
+    top: 64px;
+    left: 64px;
+}
+
+.sol img {
+    width: 600px;
+    height: auto;
+}
+
+.title {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 104px;
+    letter-spacing: 0%;
+    position: absolute;
+    top: 212px;
+    left: 721px;
+}
+
+.text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    font-style: Light;
+    line-height: 10px;
+    letter-spacing: 0%;
+    position: absolute;
+    top: 725px;
+    left: 721px;
+}
+
+.button {
+    position: absolute;
+    top: 857px;
+    left: 721px;
+
+}
+
+.button button{
+    width: 200px;
+    height: 59px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    background: #E5B94B;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
