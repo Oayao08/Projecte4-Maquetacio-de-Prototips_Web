@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;   
@@ -8,6 +14,9 @@ body {
 .container {
     width: 1440px;
     height: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -34,6 +43,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+.images {
+    display: flex;
+    gap: 10px;
+}
+
 .images img {
     width: 45px;
     height: 45px;
@@ -47,4 +61,26 @@ p {
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+.button {
+    background-color: #cd292a;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 25px;
+}
+
+.inferior-container {
+    clear: both;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.inferior-container div {
+    background-color: #1c1f26;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 13px;
 }
