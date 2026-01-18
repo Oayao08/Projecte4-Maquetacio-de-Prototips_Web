@@ -27,16 +27,19 @@ body {
 .button button {
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: Lato;
+    display: flex;
     margin-top: 40px;
     background-color: #06040A;
     color: #FFFFFF;
     border-radius: 20px;
-    width: 100px;
-    height: 60px;
+    width: 222px;
+    height: 66px;
 }
 
 .button {
+    display: flex;
     align-items: center;
     justify-content: center;
-    
 }
