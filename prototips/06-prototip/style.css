@@ -22,6 +22,8 @@ body {
 }
 
 .container {
+    width: 1440px;
+    height: 1140px;
     display: flex;
     flex-direction: column;
     gap: 24px;
